@@ -37,6 +37,11 @@
             <%= label_tag "commitment_#{commitment}", commitment.humanize %>
           </div>
         <% end %>
+        <noscript>
+          <div class="flex items-center justify-start">
+            <%= submit_tag 'Apply Filters' %>
+          </div>
+        </noscript>
       </div>
     <% end %>
   </div>
